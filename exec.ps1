@@ -1,11 +1,4 @@
-python .\gbl_team_scrapper.py 0
-python .\gbl_team_scrapper.py 1
-python .\gbl_team_scrapper.py 2
-python .\gbl_team_scrapper.py 3
-python .\gbl_team_scrapper.py 4
-python .\gbl_team_scrapper.py 5
-python .\gbl_team_scrapper.py 6
-python .\gbl_team_scrapper.py 7
-python .\gbl_team_scrapper.py 8
-python .\gbl_team_scrapper.py 9
-python .\gbl_team_scrapper.py 10
+for ($i = 0; $i -lt 99; $i++)
+{
+    python .\gbl_team_scrapper.py $i
+}
